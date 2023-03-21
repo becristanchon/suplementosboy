@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "suplementosboy-b4e1b": {
+      "hosting": {
+        "suplementosboy": [
+          "suplementosboy-b4e1b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "suplementosboy-b4e1b"
+  }
+}
