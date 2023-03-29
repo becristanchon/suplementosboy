@@ -15,6 +15,8 @@ import { provideAuth,getAuth } from '@angular/fire/auth';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { BarrasuComponent } from './barrasu/barrasu.component';
+import { LoginComponent } from './login/login.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { BarrasuComponent } from './barrasu/barrasu.component';
     HomeComponent,
     MenuComponent,
     BarrasuComponent,
+    LoginComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

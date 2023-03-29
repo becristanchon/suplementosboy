@@ -29,7 +29,7 @@
 
 .offcanvas.offcanvas-start{
     background: rgb(4, 4, 71);
-    width: 20%;
+    width: 15%;
 }
 
 .btn{
@@ -38,7 +38,7 @@
 }
 
 .container-fluid{
-    background: yellow;
+    background: #67bd50;
     width: 10%;
     justify-content: left;
     align-items: left;
@@ -47,4 +47,8 @@
 }
 .navbar{
     width: 10%;
+}
+
+.offcanvas-header{
+    padding: 5%;
 }

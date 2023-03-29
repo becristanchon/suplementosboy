@@ -7,7 +7,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .nav {    
@@ -56,7 +56,7 @@ b{
 }
 
 .form-control {
-    background-color: #ffffff;
+  background-color: #ffffff;
   max-width: 190px;
   height: 40px;
   padding: 10px;
@@ -75,3 +75,8 @@ b{
     transition-property: box-shadow;
 }
    
+a {
+    color: #080808;
+    text-decoration: none;
+}
+
