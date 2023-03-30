@@ -1,0 +1,12 @@
+<div class="form-group">
+    <label for="weight">Peso (kg):</label>
+    <input type="number" id="weight" [(ngModel)]="weight">
+  </div>
+  <div class="form-group">
+    <label for="height">Altura (cm):</label>
+    <input type="number" id="height" [(ngModel)]="height">
+  </div>
+  <button (click)="calculate()">Calcular</button>
+  <div class="result" *ngIf="result">
+    <p>Tu índice de masa corporal es: {{ result }}</p>
+  </div>

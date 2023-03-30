@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { UserService } from 'src/app/services/user.service';
 @Component({
   selector: 'app-barrasu',
   templateUrl: './barrasu.component.html',
@@ -7,4 +8,21 @@ import { Component } from '@angular/core';
 })
 export class BarrasuComponent {
 
+
+  constructor(
+    private userService: UserService,
+    private router: Router
+  ) { }
+
+
+  onClick() {
+    this.userService.logout()
+      .then(() => {
+        this.router.navigate(['/inicio']);
+      })
+      .catch(error => console.log(error));
+  }
+
+
+  
 }

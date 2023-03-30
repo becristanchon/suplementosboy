@@ -1,8 +1,7 @@
-.barra{
+.barra {
     padding: 20px;
     background-color: #67bd50;
     box-shadow: 0 2px 4px 0 rgb(9, 70, 9);
-    height: 75px;
     position: fixed;
     top: 0;
     left: 0;
@@ -10,13 +9,13 @@
     z-index: 1000;
 }
 
-.nav {    
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-titulo {   
+.nav-titulo {
     color: black;
     font-family: cursive;
 }
@@ -29,44 +28,31 @@
 }
 
 .navgation {
-    text-align:end;
+    text-align: end;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: black;
     text-decoration: none;
     font-family: cursive;
 }
 
-.container-fluid {
-    justify-content: right;
-    margin-top: 20%;
-}
-
-
-b{
-    font-weight: bolder;
-    color: black;
-    font-family: cursive;
-}
-
-.form-control{
+.form-control {
     border-end-end-radius: 50px 90px;
-    caret-color:rgba(45, 102, 187, 0.966);
+    caret-color: rgba(45, 102, 187, 0.966);
 }
 
 .form-control {
-  background-color: #ffffff;
-  max-width: 190px;
-  height: 40px;
-  padding: 10px;
-  /* text-align: center; */
-  border: 2px solid rgb(8, 125, 34);
-  border-radius: 5px;
-  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
-   }
-   
-   .form-control:focus{
+    background-color: #ffffff;
+    max-width: 190px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid rgb(8, 125, 34);
+    border-radius: 5px;
+}
+
+.form-control:focus {
     color: rgb(0, 0, 0);
     background-color: #d8f7e2;
     outline-color: rgb(0, 0, 0);
@@ -74,9 +60,44 @@ b{
     transition: .1s;
     transition-property: box-shadow;
 }
-   
+
 a {
     color: #080808;
     text-decoration: none;
 }
 
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .barra {
+        height: auto;
+        position: relative;
+    }
+    
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-titulo {
+        margin-top: 20px;
+    }
+    
+    .nav-right {
+        margin-top: 20px;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .form-control {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .navbar {
+        padding-top: 20px; /* Agregar un espacio de 20 píxeles en la parte superior de la barra de navegación */
+      }
+}
