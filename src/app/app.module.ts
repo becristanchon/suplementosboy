@@ -28,6 +28,7 @@ import { OrientacionComponent } from './productos/orientacion/orientacion.compon
 import { InformacionalimentosComponent } from './productos/informacionalimentos/informacionalimentos.component';
 import { CalculadoraimcComponent } from './productos/calculadoraimc/calculadoraimc.component';
 import { AsesoriaprofesionalComponent } from './productos/asesoriaprofesional/asesoriaprofesional.component';
+import { QuienComponent } from './quien/quien.component';
 
 
 
@@ -51,6 +52,7 @@ import { AsesoriaprofesionalComponent } from './productos/asesoriaprofesional/as
     InformacionalimentosComponent,
     CalculadoraimcComponent,
     AsesoriaprofesionalComponent,
+    QuienComponent,
   ],
   imports: [
     FormsModule,
