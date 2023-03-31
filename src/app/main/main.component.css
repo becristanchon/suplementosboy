@@ -1,0 +1,42 @@
+.compras {
+    padding: 50px 0;
+  }
+  
+  .compras h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #67bd50;
+    border-color: #67bd50;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4ca83e;
+    border-color: #4ca83e;
+  }

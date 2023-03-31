@@ -1,0 +1,74 @@
+.w3-sidebar {
+    background: rgb(12, 12, 85);
+}
+
+.w3-bar-item {
+    color: white;
+}
+
+.offcanvas-title{
+    color: black;
+    font-family: cursive;
+}
+
+.offcanvas-body{
+    background: rgb(4, 4, 71);
+}
+
+.offcanvas-title{
+    color: white;
+}
+
+.offcanvas-header{
+    background: rgb(4, 4, 71);
+}
+
+.nav-link.active {
+    color: white;
+}
+
+.offcanvas.offcanvas-start{
+    background: rgb(4, 4, 71);
+    width: 15%;
+}
+
+.btn{
+    color: white;
+
+}
+
+.container-fluid{
+    background: #67bd50;
+    width: 10%;
+    justify-content: left;
+    align-items: left;
+    display:flex;
+    position: fixed;
+}
+.navbar{
+    width: 10%;
+}
+
+.offcanvas-header{
+    padding: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-fluid{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    position: relative;
+    }
+    .navbar{
+    width: 100%;
+    }
+    .offcanvas.offcanvas-start{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateX(0);
+    }
+    }

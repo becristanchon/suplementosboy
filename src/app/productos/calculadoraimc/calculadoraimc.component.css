@@ -1,0 +1,93 @@
+/* Estilos para la sección de Orientación Nutricional */
+#orientacion-nutricional {
+    background-color: #d7f5e8;
+    padding: 50px 0;
+  }
+  
+  .container-orientacion {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .container-orientacion h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #096f54;
+  }
+  
+  .container-orientacion .card-deck {
+    margin-top: 40px;
+  }
+  
+  .container-orientacion .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .container-orientacion .card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container-orientacion .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container-orientacion .card .card-body {
+    padding: 20px;
+  }
+  
+  .container-orientacion .card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .container-orientacion .card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .container-orientacion .card a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #096f54;
+    transition: all 0.3s ease;
+  }
+  
+  .container-orientacion .card a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  :host {
+    display: block;
+    margin-top: 60px; /* Ajusta el valor según el tamaño de tu barra de navegación */
+    position: relative;
+  }
+  
+  .calculator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }

@@ -1,0 +1,27 @@
+html
+Copy code
+<header>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <div class="barra">
+        <div class="nav contenedor">
+            <div class="nav-left">
+                <a class="nav-item" routerLink="../home">
+                    <b>&#8801;</b>
+                </a>
+            </div>
+            <a><b>SUPLEMENTOS BOYACA</b></a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <span class="nav-titulo" routerLink="../accesorios">        </span>
+                <div class="nav-right">
+                    <a class="navgation" routerLink="../quien"><i class="bi bi-universal-access"></i><b>¿Quienes Somos?</b></a>
+                    <a class="navgation" routerLink="../home"><i class="bi bi-house-door-fill"></i><b>Home</b></a>
+                    <a class="navgation" routerLink="../inicio"><i class="bi bi-person-fill"></i><b>Login</b></a>
+                    <button (click)="onClick()"  class="bi bi-person-fill">Logout</button>
+                </div>
+    
+        </div>
+    </div>
+</header>

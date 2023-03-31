@@ -1,0 +1,85 @@
+.compras {
+  padding: 101px;
+}
+
+h2 {
+  font-family: fantasy;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+  
+.card {
+  border: none;
+  top: 40px;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+  
+.card img {
+  height: auto;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+  
+.card-text {
+  margin-bottom: 1rem;
+}
+  
+.btn-primary {
+  background-color: #b20a0a;
+  border-color: #5c0202;
+}
+  
+.btn-primary:hover {
+  background-color: #4ca83e;
+  border-color: #0b4802;
+}
+
+.ima-suple{
+  display: block;
+  margin: auto;
+  width: 220px;
+  place-content: right;
+
+}
+
+h5{
+  text-decoration: rgb(139, 0, 0);
+}
+
+.ima-Bipro{
+  display: block;
+  margin: auto;
+  width: 215px;
+  place-content: right;
+
+}
+
+.imaJunior{
+  display: block;
+  margin: auto;
+  width: 215px;
+  place-content: right;
+
+}

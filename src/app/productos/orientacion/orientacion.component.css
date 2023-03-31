@@ -1,0 +1,41 @@
+.nutricion {
+    background-color: #c7e5cb;
+    padding: 50px 0;
+  }
+  
+  .nutricion h2 {
+    color: #35543a;
+    text-align: center;
+  }
+  
+  .nutricion img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nutricion h3 {
+    color: #35543a;
+  }
+  
+  .nutricion p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .nutricion ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .nutricion button {
+    background-color: #35543a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }

@@ -1,0 +1,60 @@
+/* Estilos para el formulario */
+form {
+    background-color: #f7fff7;
+    padding: 20px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el encabezado */
+  h2 {
+    font-size: 24px;
+    color: #155724;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para las etiquetas */
+  label {
+    font-size: 18px;
+    color: #155724;
+  }
+  
+  /* Estilos para los campos de entrada */
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el botón de envío */
+  input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilos para el botón de inicio de sesión con Google */
+  .btn-info {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .btn-info:hover {
+    background-color: #138496;
+  }
