@@ -1,3 +1,4 @@
+
 import { ContactoService } from '../../services/contacto.service';
 import { NgForm } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
@@ -17,23 +18,15 @@ export class ContactoComponent implements OnInit {
     correoElectronico: ''
   };
 
-  mensaje: string = '';
-
   constructor(private contactoService: ContactoService) { }
 
   ngOnInit(): void {
   }
 
-  //otro
-
   onSubmit() {
-    this.contactoService.guardarContacto(this.contacto).subscribe(
-      res => {
-        console.log(res);
-        this.mensaje = res.message;
-      },
-      err => console.log(err)
-    );
+    this.contactoService.guardarContacto(this.contacto).subscribe(res => {
+      console.log(res);
+    });
   }
 
 }
