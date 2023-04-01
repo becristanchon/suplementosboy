@@ -38,11 +38,13 @@ main {
 }
 
 h2 {
-	font-family: fantasy;
+	/* tus estilos aquí */
+	padding: 7%;
 	text-align: center;
+	font-family: fantasy;
 	margin-bottom: 5px;
+	height: 3px;
 	color: black;
-	padding: 98px;
 }
 
 
@@ -68,6 +70,7 @@ h2 {
 	margin-top: 0;
 	margin-bottom: 10px;
 	color: #00B900;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .producto p {
@@ -84,8 +87,13 @@ h2 {
 	transition: background-color 0.3s;
 }
 
+.producto button {
+	background-color: #b20a0a;
+	border-color: #5c0202;
+  }
+
 .producto button:hover {
-	background-color: #008000;
+	background-color: #ce5e03;
 }
 
 .container{

@@ -34,14 +34,16 @@ nav li a {
 }
 
 main {
-	margin: 20px 0;
+	margin: 20px;
 }
 
 h2 {
+	color: black;
+	padding: 7%;
 	text-align: center;
-	margin-bottom: 20px;
-	background-color:  #00B900;
-
+	font-family: fantasy;
+	margin-bottom: 5px;
+	height: 5px;
 }
 
 .producto {
@@ -58,10 +60,11 @@ h2 {
 	margin-bottom: 10px;
 }
 
-.producto h3 {
+.producto h3{
 	margin-top: 0;
 	margin-bottom: 10px;
 	color: #00B900;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .producto p {
@@ -70,6 +73,7 @@ h2 {
 
 .producto button {
 	background-color: #00B900;
+	border-color: rgb(2, 50, 2);
 	color: white;
 	border: none;
 	padding: 10px 20px;
@@ -78,6 +82,11 @@ h2 {
 	transition: background-color 0.3s;
 }
 
+.producto button {
+	background-color: #b20a0a;
+	border-color: #5c0202;
+  }
+
 .producto button:hover {
-	background-color: #008000;
+	background-color: #07507a;
 }
