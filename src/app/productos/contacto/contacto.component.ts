@@ -24,6 +24,8 @@ export class ContactoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //otro
+
   onSubmit() {
     this.contactoService.guardarContacto(this.contacto).subscribe(
       res => {
