@@ -102,3 +102,33 @@ h2 {
   height: 3px;
   color: black;
 }
+
+.container{
+  /* justify-content: flex-start; */
+  height: 20%;
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 10%;
+  background: rgb(158, 203, 223);
+
+  color: black;
+  border: none;
+  padding: 2%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+  
+
+.botonCalcular{
+  background-color: #010036;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}

@@ -32,6 +32,7 @@ import { QuienComponent } from './quien/quien.component';
 import { ContactoComponent } from './productos/contacto/contacto.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { BotonPQRSComponent } from './boton-pqrs/boton-pqrs.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { HttpClientModule } from '@angular/common/http';
     AsesoriaprofesionalComponent,
     QuienComponent,
     ContactoComponent,
+    BotonPQRSComponent,
   ],
   imports: [
     HttpClientModule,
