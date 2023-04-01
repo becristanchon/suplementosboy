@@ -33,6 +33,7 @@ import { ContactoComponent } from './productos/contacto/contacto.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { BotonPQRSComponent } from './boton-pqrs/boton-pqrs.component';
+import { BuscadorComponent } from './buscador/buscador.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,7 @@ import { BotonPQRSComponent } from './boton-pqrs/boton-pqrs.component';
     QuienComponent,
     ContactoComponent,
     BotonPQRSComponent,
+    BuscadorComponent,
   ],
   imports: [
     HttpClientModule,
