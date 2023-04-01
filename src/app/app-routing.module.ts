@@ -15,6 +15,7 @@ import { CalculadoraimcComponent } from './productos/calculadoraimc/calculadorai
 import { InformacionalimentosComponent } from './productos/informacionalimentos/informacionalimentos.component';
 import { OrientacionComponent } from './productos/orientacion/orientacion.component';
 import { QuienComponent } from './quien/quien.component';
+import { ContactoComponent } from './productos/contacto/contacto.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/inicio' },
@@ -33,9 +34,10 @@ const routes: Routes = [
   { path: 'suplementos', component: SuplementosComponent },
   { path: 'ropa', component: RopadeportivaComponent },
   { path: 'calculadora', component: CalculadoraimcComponent },
+  { path: 'pqrs', component: ContactoComponent },
   { path: 'alimentos', component: InformacionalimentosComponent },
   { path: 'quien', component: QuienComponent },
-  { path: '*', component: InicioComponent },
+  { path: '*', component: ContactoComponent },
 ];
 
 

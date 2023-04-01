@@ -29,8 +29,9 @@ import { InformacionalimentosComponent } from './productos/informacionalimentos/
 import { CalculadoraimcComponent } from './productos/calculadoraimc/calculadoraimc.component';
 import { AsesoriaprofesionalComponent } from './productos/asesoriaprofesional/asesoriaprofesional.component';
 import { QuienComponent } from './quien/quien.component';
+import { ContactoComponent } from './productos/contacto/contacto.component';
 
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -53,8 +54,10 @@ import { QuienComponent } from './quien/quien.component';
     CalculadoraimcComponent,
     AsesoriaprofesionalComponent,
     QuienComponent,
+    ContactoComponent,
   ],
   imports: [
+    HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
     BrowserModule,
