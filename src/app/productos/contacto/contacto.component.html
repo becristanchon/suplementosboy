@@ -1,9 +1,7 @@
 
-
-
 <div class="container">
-  <app-menu></app-menu>
-
+<app-menu></app-menu>
+<app-boton-pqrs></app-boton-pqrs>
   <form (submit)="onSubmit()">
     <div class="form-group">
       <label for="nombre_cliente">Nombre:</label>
@@ -26,5 +24,6 @@
   <!-- Agrega esta sección para mostrar el mensaje -->
   <div *ngIf="mensaje" class="alert alert-success mt-3">
     {{ mensaje }}
+
   </div>
 </div>

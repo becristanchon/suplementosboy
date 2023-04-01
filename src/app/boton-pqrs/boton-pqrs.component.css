@@ -16,9 +16,10 @@
     border: none;
     outline: none;
     cursor: pointer;
-    position:relative;
+    position:absolute;
     align-items: end;
-    left: 88%;
+    top: 62%;
+    left: 85%;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 500;
@@ -197,9 +198,9 @@
   }
 
   .botonCarrito{
-    position: relative;
-    left: 77%;
-    top:-10%;
+    position: absolute;
+    left: 85%;
+    top:50%;
     overflow: hidden;
     outline: none;
     cursor: pointer;
