@@ -16,9 +16,9 @@
     border: none;
     outline: none;
     cursor: pointer;
-    position:absolute;
+    position:fixed;
     align-items: end;
-    top: 62%;
+    top: 90%;
     left: 85%;
     border-radius: 5px;
     font-size: 14px;

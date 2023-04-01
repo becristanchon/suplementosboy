@@ -1,5 +1,4 @@
 <app-menu></app-menu>
-<app-boton-pqrs></app-boton-pqrs>
 <h2 class="title">Calcula tu Incremento de Masa Corporal</h2>
 <div class="container">
   <div class="form-group">
@@ -8,13 +7,13 @@
   </div>
   <br>
   <div class="form-group">
-    <b><i><label for="height">Altura (cm):</label></i></b>
+    <label for="height">Altura (cm):</label>
     <input type="number" id="height" [(ngModel)]="height">
   </div>
   <br>
   <button class="botonCalcular" (click)="calculate()">Calcular</button>
   <div class="result" *ngIf="result">
-    <br>
     <p>Tu índice de masa corporal es: {{ result }}</p>
   </div>
 </div>
+<br>
