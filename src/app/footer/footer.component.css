@@ -10,12 +10,13 @@ ul {
   padding-left: 0px;
   margin-bottom: 0;
 }
+
 .footer_area {
 height: 70%;
 width: 100%;
 margin: 0%;
 padding:40px;
-position:relative;
+position:static;
 color: #fff;
 z-index: 100;
 background: #222;
@@ -26,6 +27,7 @@ word-wrap: break-word;
 .single_ftr form{
 margin-top: 8px;
 }
+
 .single_ftr p{
 margin-bottom: 10px;
 }
@@ -34,8 +36,8 @@ margin-bottom: 10px;
   color: #33d286;
   text-transform: uppercase;
   font-size: 17px;
-margin-top: 0px;
-margin-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
 .ftr_logo {
   float: left;

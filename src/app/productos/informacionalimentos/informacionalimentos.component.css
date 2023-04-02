@@ -1,22 +1,24 @@
-.container {
-  margin-top: 50px;
+/* .container {
+  margin-top: 5px;
 }
-  
+   */
 h2 {
-  padding: 5%;
+  padding: 9%;
   color: black;
   text-align: center;
   font-family: fantasy;
 }
   
 .table {
-  margin-top: 30px;
+  /* margin-top: 0px; */
+  /* align-content: baseline; */
   background-color: #fff;
   border: 1px solid #ddd;
   border-collapse: collapse;
 }
   
 .table th {
+  align-content: 5%;
   font-weight: bold;
   background-color: #0072b8;
   color: #fff;
@@ -26,7 +28,7 @@ h2 {
 }
   
 .table th {
-  padding: 10px;
+  /* padding: 10px; */
   border: 1px solid #ddd;
 }
   
@@ -43,7 +45,7 @@ img, svg {
 
 /* InformacionalimentosComponent CSS */
 :host {
-  display: block;
+  /* display: block; */
   margin: 2rem;
 }
 
@@ -69,7 +71,7 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #d8e6cf;
+  background-color: #d9edf5;
 }
 
 /* Agregamos estilos personalizados para el buscador */

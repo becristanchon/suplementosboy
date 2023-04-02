@@ -1,5 +1,5 @@
 .nutricion {
-  padding: 98px;  
+  padding: 9%;  
 }
   
 .nutricion h2 {
@@ -9,14 +9,15 @@
 }
   
 .nutricion img {
+  margin-left: -5%;
   padding: 50px;
-  max-width: 100%;
+  max-width: 112%;
   height: auto;
 }
   
 .nutricion h4 {
   text-align: center;
-  padding-top: 25px;
+  padding-top: 6%;
   color: black;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -37,25 +38,24 @@
   background-color: #35543a;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 5px;
   border-radius: 5px;
   margin-top: 20px;
   cursor: pointer;
-  display: block;
-  margin: 0 auto;
+  /* display: block; */
+  margin: 5px; 
 }
 
 .text{
   background: #d8e0f8;
   border-radius: 20px;
-  width: 50%;
+  width: 640px;
+  height: 400px;
+  text-align: center;
+  margin-top: 4%;
 }
 
 p{
   text-align: justify;
   color: black;
-}
-
-.container{
-  height: 50px;
 }

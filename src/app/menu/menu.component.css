@@ -34,7 +34,6 @@
 
 .btn{
     color: white;
-
 }
 
 .container-fluid{
@@ -42,7 +41,7 @@
     width: 10%;
     justify-content: left;
     align-items: left;
-    display:flex;
+    /* display:flex; */
     position: fixed;
 }
 .navbar{
@@ -71,4 +70,4 @@
     left: 0;
     transform: translateX(0);
     }
-    }
+}
