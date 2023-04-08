@@ -1,19 +1,47 @@
 <app-menu></app-menu>
+<app-boton-pqrs></app-boton-pqrs>
+
 <h2 class="title">Calcula tu Incremento de Masa Corporal</h2>
-<div class="container">
-  <div class="form-group">
-    <b><i><label for="weight">Peso (kg):</label></i></b>
-    <input type="number" id="weight" [(ngModel)]="weight">
+
+<div class="row">
+  <div class="container">
+  <div class="col-md-6">
+      <div class="form-group">
+        <b><i><label for="weight">Peso (kg):</label></i></b>
+        <input type="number" id="weight" [(ngModel)]="weight">
+      </div>
+      <br>
+      <div class="form-group">
+        <b><i><label for="height">Altura (cm):</label></i></b>
+        <input type="number" id="height" [(ngModel)]="height">
+      </div>
+      <br>
+      <button class="botonCalcular" (click)="calculate()">Calcular</button>
+      <div class="result" *ngIf="result">
+        <br>
+        <p><b>Tu índice de masa corporal es: <br> {{ result }}</b></p>
+      </div>
+    </div>
   </div>
-  <br>
-  <div class="form-group">
-    <label for="height">Altura (cm):</label>
-    <input type="number" id="height" [(ngModel)]="height">
+
+  <div class="col-md-6">
+    <img src="../../../assets/imagen/Calculadora/imagenImc.jpg" alt="Imagen de nutrición" class="mujer">
   </div>
-  <br>
-  <button class="botonCalcular" (click)="calculate()">Calcular</button>
-  <div class="result" *ngIf="result">
-    <p>Tu índice de masa corporal es: {{ result }}</p>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="texto">
+      <h5 style="color: brown;"><b>Nota:</b></h5>
+      <p>El índice de masa corporal (IMC) permite conocer si tu 
+         peso es o no adecuado para tu estatura. Este índice 
+         sólo es válido para adultos mayores de 18 años y no 
+         es útil para deportistas, embarazadas, niños o adultos 
+         mayores de 70 años.</p>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <img src="../../../assets/imagen/Calculadora/imagenImcH.jpg" alt="Imagen de nutrición" class="hombre">
   </div>
 </div>
 <br>

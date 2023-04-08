@@ -62,6 +62,7 @@ a:visited {
 }
 
 a {
+    font-family: cursive;
     color: #080808;
     text-decoration: none;
 }
