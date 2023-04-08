@@ -41,7 +41,7 @@
     width: 10%;
     justify-content: left;
     align-items: left;
-    /* display:flex; */
+    display:flex;
     position: fixed;
 }
 .navbar{
