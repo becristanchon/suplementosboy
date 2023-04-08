@@ -7,6 +7,7 @@ import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { HomeComponent } from './home/home.component';
 import { MainComponent } from './main/main.component';
+
 import { AccesoriosComponent } from './productos/accesorios/accesorios.component';
 import { AsesoriaprofesionalComponent } from './productos/asesoriaprofesional/asesoriaprofesional.component';
 import { SuplementosComponent } from './productos/suplementos/suplementos.component';
@@ -16,6 +17,8 @@ import { InformacionalimentosComponent } from './productos/informacionalimentos/
 import { OrientacionComponent } from './productos/orientacion/orientacion.component';
 import { QuienComponent } from './quien/quien.component';
 import { ContactoComponent } from './productos/contacto/contacto.component';
+import { FormulariopqrsComponent } from './formulariopqrs/formulariopqrs.component';
+import { VentanaEComponent } from './productos/ventana-e/ventana-e.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/inicio' },
@@ -34,9 +37,11 @@ const routes: Routes = [
   { path: 'suplementos', component: SuplementosComponent },
   { path: 'ropa', component: RopadeportivaComponent },
   { path: 'calculadora', component: CalculadoraimcComponent },
-  { path: 'pqrs', component: ContactoComponent },
+  { path: 'contacto', component: ContactoComponent },
   { path: 'alimentos', component: InformacionalimentosComponent },
   { path: 'quien', component: QuienComponent },
+  { path: 'ventana', component:VentanaEComponent },
+  { path: 'formulariopqrs', component:FormulariopqrsComponent },
   { path: '*', component: ContactoComponent },
 ];
 

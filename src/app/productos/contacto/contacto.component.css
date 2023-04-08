@@ -1,7 +1,7 @@
 form {
   max-width: 500px;
-  margin: 0 auto;
-  background-color: #DFF0D8;
+  margin: 14% auto;
+  background-color: #c3b3a4;
   padding: 50px;
   border-radius: 10px;
   position: relative;
@@ -22,7 +22,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #5CB85C;
+  background-color: #540202;
   border: none;
   padding: 10px 20px;
   color: #fff;
@@ -31,5 +31,12 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #449D44;
+  background-color: #a9054c;
+}
+
+h4 {
+  margin-top: 4%;
+  font-family: cursive;
+  text-align: center;
+  color: rgb(112, 2, 2);
 }

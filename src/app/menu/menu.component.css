@@ -38,7 +38,7 @@
 
 .container-fluid{
     background: #67bd50;
-    width: 10%;
+    width: 9%;
     justify-content: left;
     align-items: left;
     display:flex;
@@ -70,4 +70,12 @@
     left: 0;
     transform: translateX(0);
     }
+}
+
+.fixed-top {
+    position: absolute;
+    top: 0%;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }

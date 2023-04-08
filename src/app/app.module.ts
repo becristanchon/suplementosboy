@@ -34,6 +34,8 @@ import { ContactoComponent } from './productos/contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BotonPQRSComponent } from './boton-pqrs/boton-pqrs.component';
 import { BuscadorComponent } from './buscador/buscador.component';
+import { VentanaEComponent } from './productos/ventana-e/ventana-e.component';
+import { FormulariopqrsComponent } from './formulariopqrs/formulariopqrs.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +61,8 @@ import { BuscadorComponent } from './buscador/buscador.component';
     ContactoComponent,
     BotonPQRSComponent,
     BuscadorComponent,
+    VentanaEComponent,
+    FormulariopqrsComponent,
   ],
   imports: [
     HttpClientModule,

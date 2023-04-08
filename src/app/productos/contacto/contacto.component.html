@@ -2,6 +2,8 @@
 <app-boton-pqrs></app-boton-pqrs>
 <div class="container">
 <form (submit)="onSubmit()">
+  <h4>Contacta con un profesional<br><i class="bi bi-clipboard2-heart-fill"></i></h4>
+  <br>
   <div class="form-group">
     <label for="nombre_cliente">Nombre:</label>
     <input type="text" class="form-control" id="nombre_cliente" [(ngModel)]="contacto.nombre_cliente" name="nombre_cliente" required>
@@ -18,6 +20,7 @@
     <label for="correoElectronico">Correo electrónico:</label>
     <input type="email" class="form-control" id="correoElectronico" [(ngModel)]="contacto.correoElectronico" name="correoElectronico" required>
   </div>
+  <br>
   <button type="submit" class="btn btn-primary">Guardar</button>
 </form>
 

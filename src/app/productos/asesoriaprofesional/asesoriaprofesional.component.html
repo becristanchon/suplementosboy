@@ -1,27 +1,27 @@
 <app-menu></app-menu>
 <app-boton-pqrs></app-boton-pqrs>
 <section class="asesoria">
-    <div class="container">
-      <h2>¿Necesitas asesoría profesional?</h2>
-      <p>Permítenos ayudarte a alcanzar tus metas de forma efectiva y segura. Nuestros expertos están a tu disposición para brindarte la mejor asesoría en entrenamiento, nutrición y suplementación.</p>
-      <form>
-        <div class="form-group">
-          <label for="nombre">Nombre completo</label>
-          <input type="text" id="nombre" name="nombre" required>
-        </div>
-        <div class="form-group">
-          <label for="correo">Correo electrónico</label>
-          <input type="email" id="correo" name="correo" required>
-        </div>
-        <div class="form-group">
-          <label for="telefono">Teléfono de contacto</label>
-          <input type="tel" id="telefono" name="telefono">
-        </div>
-        <div class="form-group">
-          <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-        </div>
-        <button type="submit">Enviar</button>
-      </form>
+  <div class="container">
+    <h2>Asesoría Profesional</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="../../../assets/imagen/orientacion/nutricion-deportiva.jpg" alt="Imagen de nutrición">
+      </div>
+      <div class="col-md-6">
+      <div class="text">
+        <h4>¿Cómo llevar una alimentación saludable?</h4>
+        <p>Para tener una alimentación saludable, es importante incluir alimentos de todos los grupos alimenticios en las porciones adecuadas. Algunas recomendaciones son:</p>
+        <p>
+          <li>Consumir porciones adecuadas de proteína magra, como pollo, pavo, pescado, tofu o legumbres.</li>
+          <li>Incluir frutas y verduras en cada comida y como snacks.</li>
+          <li>Consumir carbohidratos complejos, como arroz integral, pasta integral, quinoa, entre otros.</li>
+          <li>Limitar el consumo de alimentos procesados y altos en grasas saturadas y trans.</li>
+          <li>Beber suficiente agua a lo largo del día.</li>
+        </p>
+        <button (click)="onClick()">Consulta con un Profesional</button>
+      </div>
+      </div>
     </div>
+  </div>
 </section>
+<br>
