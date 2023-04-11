@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 10%;
+}
+
+p{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    color: black;
+}
+
+.table {
+    /* margin-top: 0px; */
+    /* align-content: baseline; */
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th {
+    align-content: 5%;
+    font-weight: bold;
+    background-color: #c9e7ea; /* #bbaacb */
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-family: cursive;
+}
+
+
+element.style {
+    background-color: cornsilk;
+}

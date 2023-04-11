@@ -6,6 +6,7 @@ import { Router } from '@angular/router';
   templateUrl: './boton-pqrs.component.html',
   styleUrls: ['./boton-pqrs.component.css']
 })
+
 export class BotonPQRSComponent {
 
   constructor(
@@ -13,10 +14,7 @@ export class BotonPQRSComponent {
     private router: Router
   ) { }
 
-  
   onClick() {
-        this.router.navigate(['/formulariopqrs']);
+    this.router.navigate(['/formulariopqrs']);
   }
-
-
 }

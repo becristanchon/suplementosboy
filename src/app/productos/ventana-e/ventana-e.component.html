@@ -1,2 +1,28 @@
 <app-menu></app-menu>
 <app-boton-pqrs></app-boton-pqrs>
+<h2>Calendario</h2>
+<br><br>
+<div class="calendar">
+    <div class="calendar-header">
+      <button (click)="prevMonth()">Anterior</button>
+      <div>{{ currentDate | date: 'MMMM y ' }}</div>
+      <button (click)="nextMonth()">Siguiente</button>
+    </div>
+    <div class="calendar-body">
+      <div class="weekdays">
+        <div>D</div>
+        <div>L</div>
+        <div>M</div>
+        <div>M</div>
+        <div>J</div>
+        <div>V</div>
+        <div>S</div>
+      </div>
+      <div class="days" *ngFor="let week of weeks">
+        <div class="day" *ngFor="let day of week" [ngClass]="{ 'today': day.isToday, 'current-month': day.isCurrentMonth }">
+          {{ day.date | date: 'd' }}
+        </div>
+      </div>
+    </div>
+  </div>
+<br>

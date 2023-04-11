@@ -1,0 +1,79 @@
+h2{
+    margin-top: 10%;
+    font-family: fantasy;
+    text-align: center;
+}
+.calendar {
+    margin: 0 auto;
+    max-width: 450px;
+    border: 1px solid #8e0202;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+  
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff8a8a;
+    padding: 5px;
+}
+  
+.calendar-header button {
+    background-color: #fff;
+    border: 1px solid #8e0202;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+  
+.calendar-body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 10px;
+}
+  
+.weekdays {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffb020;
+}
+  
+.weekdays div {
+    width: calc(100% / 7);
+    text-align: center;
+}
+  
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.day {
+    width: calc(100% / 7);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+  
+.today {
+    background-color: #f5bb4e;
+    border-radius: 60%;
+}
+  
+.current-month {
+    font-weight: bold;
+}
+  

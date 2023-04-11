@@ -1,0 +1,36 @@
+.button {
+    background-color: rgb(14, 13, 13);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset -1px 0px 15px rgb(255 255 255 / 75%);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 17px;
+    display: flex;
+    position: fixed;
+    top: 82%;
+    right: 6px;
+    padding: 7px;
+    text-align: center;
+    height: 6%;
+}
+
+  
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    background-color: rgb(4, 109, 0);
+}
+  
+.button:active {
+    transform: translateY(0.5em);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+p{
+    text-align: center;
+    height: 10px;
+    margin-top: 0%;
+}

@@ -36,6 +36,7 @@ import { BotonPQRSComponent } from './boton-pqrs/boton-pqrs.component';
 import { BuscadorComponent } from './buscador/buscador.component';
 import { VentanaEComponent } from './productos/ventana-e/ventana-e.component';
 import { FormulariopqrsComponent } from './formulariopqrs/formulariopqrs.component';
+import { BotonPagoComponent } from './boton-pago/boton-pago.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { FormulariopqrsComponent } from './formulariopqrs/formulariopqrs.compone
     BuscadorComponent,
     VentanaEComponent,
     FormulariopqrsComponent,
+    BotonPagoComponent,
   ],
   imports: [
     HttpClientModule,

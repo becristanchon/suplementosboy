@@ -29,7 +29,7 @@
 
 .offcanvas.offcanvas-start{
     background: rgb(4, 4, 71);
-    width: 15%;
+    width: 16%;
 }
 
 .btn{
@@ -44,8 +44,17 @@
     display:flex;
     position: fixed;
 }
+
 .navbar{
     width: 10%;
+}
+
+.navbar-toggler {
+    line-height: 1;
+    border: var(--bs-border-width) solid rgb(0 0 0 / 33%);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+    margin-left: 3%;
 }
 
 .offcanvas-header{

@@ -9,9 +9,9 @@
 }
   
 .asesoria img {
-  margin-left: -5%;
+  margin-left: -15%;
   padding: 50px;
-  max-width: 112%;
+  max-width: 116%;
   height: auto;
 }
   
@@ -54,6 +54,7 @@
   text-align: center;
   margin-top: 9%;
   padding: 3%;
+  margin-left: -11%;
 }
 
 p{
